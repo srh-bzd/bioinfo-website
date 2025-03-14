@@ -62,9 +62,6 @@ markdown_extensions:
 # Structure de la navigation
 nav:
   - Accueil: index.md
-  - Cours : 
-    - Vue d'ensemble : lessons/lessons.md
-    - RNAseq : lessons/rnaseq-lesson.md
   - Tutoriels : 
     - Vue d'ensemble : training/training.md
     - Analyses :
