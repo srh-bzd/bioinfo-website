@@ -1,15 +1,15 @@
 # Nom du site
-site_name: Bioinfo training
+site_name: A bioinformatics website
 
 # Description facultative (utilisée dans les métadonnées et les moteurs de recherche)
 site_description: ""
 
 # URL de base (utile pour le déploiement sur GitHub Pages)
-site_url: https://srh-bzd.github.io/bioinfo-training
+site_url: https://srh-bzd.github.io/bioinfo-website
 
 # URL et nom du repo
-repo_url: https://github.com/srh-bzd/bioinfo-training
-repo_name: srh-bzd/bioinfo-training
+repo_url: https://github.com/srh-bzd/bioinfo-website
+repo_name: srh-bzd/bioinfo-website
 edit_uri: edit/main/docs/
 
 # Chemin du logo
@@ -62,25 +62,23 @@ markdown_extensions:
 # Structure de la navigation
 nav:
   - Accueil: index.md
-  - Tutoriels : 
-    - Vue d'ensemble : training/training.md
-    - Analyses :
-      - RNAseq : training/analysis/rnaseq-training.md
-    - Développement :
-      - MkDocs : training/dev/mkdocs.md
-    - Visualisation :
-      - Diagramme de Venn : training/visualization/venn.md
-  - Connaissances : 
-    - Vue d'ensemble : knowledge/knowledge.md
+  - Outils :
+    - wgsim : tools/wgsim.md
+  - Base de données et références :
     - Bases de données : 
-      - RefSeq : knowledge/databases/refseq.md
+      - RefSeq : databases/refseq.md
     - Références : 
-      - Le transcriptome humain : knowledge/references/human-transcriptome.md
-      - Le génome humain: knowledge/references/human-genome.md
-      - Les annotations du génome humain : knowledge/references/human-annotations.md
-    - Outils :
-      - Inférence du strandedness : knowledge/tools/rnaseq-strandedness.md
-      - Biais d'assemblage : knowledge/tools/assembly-bias.md
+      - Le transcriptome humain : references/human-transcriptome.md
+      - Le génome humain: references/human-genome.md
+      - Les annotations du génome humain : references/human-annotations.md 
+  - Tutoriels :
+    - Développement :
+      - MkDocs : training/mkdocs.md
+    - Visualisation :
+      - Diagramme de Venn : training/venn.md
+  - Concepts :
+      - Inférence du strandedness : concepts/rnaseq-strandedness.md
+      - Biais d'assemblage : concepts/assembly-bias.md
   - À propos: about.md
 
 
