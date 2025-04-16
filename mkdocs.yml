@@ -67,6 +67,7 @@ nav:
   - Base de données et références :
     - Bases de données : 
       - RefSeq : databases/refseq.md
+      - PaVE : databases/pave.md
     - Références : 
       - Le transcriptome humain : references/human-transcriptome.md
       - Le génome humain: references/human-genome.md
