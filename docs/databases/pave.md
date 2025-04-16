@@ -6,6 +6,7 @@
 ## Contenu et outils disponibles 
 
 PaVE contient à ce jour : 
+
 - 853 génomes de papillomavirus annotés (dont 254 génomes de non-référence)
 - 11338 gènes et régions
 - 6687 séquences de protéines
@@ -14,6 +15,7 @@ PaVE contient à ce jour :
 que les utilisateurs peuvent explorer, analyser ou télécharger. 
 
 En terme d'outils pour l'analyse de données, PaVE offre :
+
 - alignement multiple de séquences
 - visualisation de structures protéiques
 - outil de taxonomie basé sur le gène L1
